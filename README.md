@@ -1,3 +1,7 @@
+# 🚀 Projet Scolaire - Projet Escalade pour les Jeux Olympiques de Paris 2024 :
+
+Ce projet est une petite application développée dans le cadre d'un projet scolaire. Il s'agit d'un petit jeu en ligne conçu pour le sport de l'escalade, inspiré par les Jeux Olympiques de Paris 2024.
+
 ---
 
 🚀 **Description du Projet :**
