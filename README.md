@@ -1,61 +1,37 @@
+---
+
+🚀 **Description du Projet :**
+
+Ce projet est un petit jeu en ligne qui affiche une grille de cercles. L'utilisateur peut saisir son nom et sa date de naissance dans un formulaire, et en soumettant le formulaire, il voit un niveau généré aléatoirement affiché à côté de la grille.
 
 ---
 
-🚀 **Project Description:**
+📝 **Étapes de Développement :**
 
-This project is a simple web application designed to create a grid-based game environment. It features a grid of circles, a form for user input, and a display area to show the generated level based on the user's input.
+1. **Création de la Grille de Cercles :**
+   - J'ai commencé par créer une grille de 4 colonnes par 10 lignes en HTML et CSS.
+   - Chaque cellule de la grille contient un cercle noir par défaut.
 
----
+2. **Ajout de la Fonctionnalité de Génération de Niveau :**
+   - J'ai écrit un script JavaScript qui génère aléatoirement un niveau à chaque soumission de formulaire.
+   - Ce niveau consiste en un certain nombre d'étoiles (représentées par des "★") et de points, basé sur le nom et la date de naissance de l'utilisateur.
 
-🔵 **Grid of Circles:**
+3. **Création du Formulaire de Saisie :**
+   - J'ai ajouté un formulaire HTML où l'utilisateur peut saisir son nom et sa date de naissance.
+   - Le formulaire est stylisé avec CSS pour être attrayant et convivial.
 
-- The grid is created using HTML and CSS, with each cell containing a black circle by default.
-- Some circles are randomly chosen to be red, indicating specific points within the grid.
-- The grid is displayed using CSS grid layout.
+4. **Affichage de l'Historique des Soumissions :**
+   - J'ai ajouté une section pour afficher l'historique des soumissions de formulaire.
+   - À chaque soumission, les données du formulaire sont enregistrées et affichées dans cette section.
 
----
-
-📝 **Form for User Input:**
-
-- Users can input their name and date of birth via a form.
-- The form is created using HTML `<form>` element and styled using CSS.
-- Upon submission, the entered data is captured using JavaScript.
-
----
-
-⭐ **Level Generation:**
-
-- Upon form submission, the entered name and date of birth are used to generate a level.
-- The level consists of a certain number of stars (represented by "★") and points (ranging from 1 to 10).
-- The level is randomly generated based on the length of the name and date of birth.
+5. **Finalisation et Stylisation :**
+   - J'ai finalisé le projet en ajoutant les touches finales de stylisation pour assurer une expérience utilisateur agréable.
+   - Les éléments sont arrangés de manière claire et intuitive pour faciliter la compréhension et l'utilisation du jeu.
 
 ---
 
-📊 **Displaying Level and Form History:**
+🌟 **Conclusion :**
 
-- The generated level is displayed in the right-hand side panel of the application.
-- The program keeps track of form submissions, storing the user's name, date of birth, and generated level.
-- The form submission history is displayed below the form.
-
----
-
-🎨 **Styling:**
-
-- The application is styled using CSS to ensure a visually appealing layout.
-- Flexbox is utilized to arrange elements in a column layout, with the grid taking up most of the space and the form displayed below it.
-
----
-
-🧩 **JavaScript Functionality:**
-
-- JavaScript adds interactivity to the application.
-- Event listeners capture form submissions and update the display accordingly.
-- Functions are defined to generate levels, display levels, and update the form submission history.
-
----
-
-🌟 **Conclusion:**
-
-This project provides users with a simple interface to input their information, generates a level based on that information, and displays both the level and form submission history for reference. It serves as a basic example of a web application utilizing HTML, CSS, and JavaScript for both functionality and styling.
+Ce projet offre aux utilisateurs un petit divertissement en ligne où ils peuvent générer des niveaux uniques en fonction de leur nom et de leur date de naissance. En suivant ces étapes de développement simples, j'ai pu créer un jeu interactif et amusant qui peut être facilement partagé et utilisé par n'importe qui !
 
 ---
